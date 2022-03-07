@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "dataapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\sh55451\\Documents\\UGA\\brookdodo\\data-app\\amplify\\backend\\api\\dataapp\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-02-16T16:44:26.209Z",
+      "keyDescription": "public api key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authdataapp1a2515b8"
+      }
+    ]
+  }
+}

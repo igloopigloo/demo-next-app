@@ -1,0 +1,73 @@
+/* eslint-disable */
+// this is an auto generated file. This will be overwritten
+
+export const getPost = /* GraphQL */ `
+  query GetPost($id: ID!) {
+    getPost(id: $id) {
+      id
+      title
+      content
+      siteid
+      count
+      date
+      username
+      coverImage
+      createdOn
+      updatedOn
+    }
+  }
+`;
+export const listPosts = /* GraphQL */ `
+  query ListPosts(
+    $filter: ModelPostFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listPosts(filter: $filter, limit: $limit, nextToken: $nextToken) {
+      items {
+        id
+        title
+        content
+        siteid
+        count
+        date
+        username
+        coverImage
+        createdOn
+        updatedOn
+      }
+      nextToken
+    }
+  }
+`;
+export const postsByUsername = /* GraphQL */ `
+  query PostsByUsername(
+    $username: String!
+    $sortDirection: ModelSortDirection
+    $filter: ModelPostFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    postsByUsername(
+      username: $username
+      sortDirection: $sortDirection
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+    ) {
+      items {
+        id
+        title
+        content
+        siteid
+        count
+        date
+        username
+        coverImage
+        createdOn
+        updatedOn
+      }
+      nextToken
+    }
+  }
+`;
