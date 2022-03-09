@@ -12,8 +12,8 @@ export const getPost = /* GraphQL */ `
       date
       username
       coverImage
-      createdOn
-      updatedOn
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -33,8 +33,8 @@ export const listPosts = /* GraphQL */ `
         date
         username
         coverImage
-        createdOn
-        updatedOn
+        createdAt
+        updatedAt
       }
       nextToken
     }
@@ -64,8 +64,8 @@ export const postsByUsername = /* GraphQL */ `
         date
         username
         coverImage
-        createdOn
-        updatedOn
+        createdAt
+        updatedAt
       }
       nextToken
     }

@@ -12,8 +12,8 @@ export const onCreatePost = /* GraphQL */ `
       date
       username
       coverImage
-      createdOn
-      updatedOn
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -28,8 +28,8 @@ export const onUpdatePost = /* GraphQL */ `
       date
       username
       coverImage
-      createdOn
-      updatedOn
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -44,8 +44,8 @@ export const onDeletePost = /* GraphQL */ `
       date
       username
       coverImage
-      createdOn
-      updatedOn
+      createdAt
+      updatedAt
     }
   }
 `;

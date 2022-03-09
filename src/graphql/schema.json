@@ -246,7 +246,7 @@
           "isDeprecated" : false,
           "deprecationReason" : null
         }, {
-          "name" : "createdOn",
+          "name" : "createdAt",
           "description" : null,
           "args" : [ ],
           "type" : {
@@ -261,7 +261,7 @@
           "isDeprecated" : false,
           "deprecationReason" : null
         }, {
-          "name" : "updatedOn",
+          "name" : "updatedAt",
           "description" : null,
           "args" : [ ],
           "type" : {
